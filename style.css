@@ -1,0 +1,587 @@
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.cap{
+    width: 600px;
+    margin: auto;
+}
+
+
+.cara{
+    height: 700px;
+    width: 580px;
+    background-color: rgb(255, 220, 192);
+    border-radius: 100% / 300px 300px 820px 820px ;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.cabell{
+    height: 150px;
+    background-color: rgb(90, 48, 18);
+    border-radius: 100% / 700px 700px 0px 0px;   
+}
+
+
+.front{
+    background-color: rgb(255, 220, 192);
+    height: 80px;
+    width: 580px;
+}
+
+.f1{
+    background-color: rgb(90, 48, 18);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: 120px;
+    left: -20px;
+}
+
+.f2{
+    background-color: rgb(90, 48, 18);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+
+.f3{
+    background-color: rgb(90, 48, 18);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+
+.f4{
+    background-color: rgb(90, 48, 18);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -40px;
+    left: 130px;
+}
+
+.f5{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -120px;
+    left: 170px;
+}
+
+.f6{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 170px;
+    transform: rotate(300deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -170px;
+    left: 210px;
+}
+
+.f7{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -210px;
+    left: 260px;
+}
+
+.f8{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -280px;
+    left: 324px;
+}
+
+.f9{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -350px;
+    left: 340px;
+}
+
+.f10{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -390px;
+    left: 360px;
+}
+
+.f11{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -450px;
+    left: 420px;
+}
+
+.f12{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(420deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -560px;
+    left: 520px;
+}
+
+.f13{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(420deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -670px;
+    left: 505px;
+}
+
+.f14{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -660px;
+    left: 430px;
+}
+
+.f15{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -700px;
+    left: 500px;
+}
+
+.f16{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 0px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -740px;
+    left: 480px;
+}
+
+.f17{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -840px;
+    left: 505px;
+}
+
+.f18{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1020px;
+    left: 445px;
+}
+
+.f19{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(300deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1000px;
+    right: 20px;
+}
+
+.f20{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(320deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1100px;
+    right: 2px;
+}
+
+.f21{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(320deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1140px;
+    right: 20px;
+}
+
+.f22{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(320deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1180px;
+    right: 20px;
+}
+
+.f23{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(320deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1290px;
+    right: 10px;
+}
+
+.f24{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(320deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1400px;
+    right: -25px;
+}
+
+.f25{
+    background-color: rgb(84, 52, 29);
+    height: 60px;
+    width: 100px;
+    transform: rotate(400deg);
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1000;
+    position: relative;
+    top: -1450px;
+    left: 480px;
+}
+
+
+
+
+
+
+
+.mirada{
+    height: 150px;
+    width: 580px;
+    text-align: center;
+    transform: scale(85%);
+}
+
+.patilla{
+    background-color: rgb(84, 52, 29);
+    height: 140px;
+    width: 20px;
+}
+
+.w1{
+    position: relative;
+    bottom: 718px;
+}
+
+.w2{
+    position: relative;
+    bottom: 860px;
+    left: 560px;
+}
+
+
+.ceja{
+    background-color: rgb(84, 52, 29);
+    height: 20px;
+    width: 160px;
+    display: inline block;
+}
+
+.ceja.c1{
+    margin: 10px 200px 0px 70px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 1px 0px 2px 0px;
+}
+
+.ceja.c2{
+    margin: 0px 200px 0px 330px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 1px 0px 2px 0px;
+}
+
+
+
+
+.ull {
+    height: 150px;
+    width: 120px;
+    border-radius: 100px 0px;
+    background-color: white;
+    display: inline block;
+    text-align: center;
+    position: relative;
+}
+
+.ull.u1{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 80px;
+    transform: rotate(235deg);
+    box-shadow: 1px 0px 2px 0px;
+}
+
+.ull.u2{
+    background-color: rgb(255, 255, 255);
+    margin: -330px 365px;
+    border-radius: 0px 100px;
+    transform: rotate(664deg);
+    box-shadow: 1px 0px 2px 0px;
+}
+
+
+.iris{
+    background-color: rgb(98, 46, 9);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.i1{
+    position: relative;
+    bottom: 124px;
+    left: 90px;
+}
+
+.i2{
+    position: relative;
+    bottom: -205px;
+    left: 375px;
+}
+    
+
+.pupila{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.p1{
+    position: relative;
+    bottom: 194px;
+    left: 119px;
+    box-shadow: 0px 0px 30px rgb(173, 113, 70);
+}
+
+.p2{
+    position: relative;
+    bottom: -137px;
+    left: 405px;
+    box-shadow: 0px 0px 30px rgb(173, 113, 70);
+}
+
+.brillo{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.b1{
+    position: relative;
+    bottom: 255px;
+    left: 92px;
+}
+
+.b2{
+    position: relative;
+    bottom: -75px;
+    left: 380px;
+}
+
+.boca{
+    background-color: rgb(255, 220, 192);
+    height: 90px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -60px;
+    left: 205px;
+    box-shadow: 0px 6px 0px 0px;
+}
+
+.oreja{
+    background-color: rgb(255, 220, 192);
+    height: 180px;
+    width: 80px;
+}
+
+.o1{
+    position: relative;
+    top: -240px;
+    right: 40px;
+    border-radius: 30px 0px 0px 50px / 30px 0px 0px 100px;
+
+}
+
+.o2{
+    position: relative;
+    top: -430px;
+    right: -535px;
+    border-radius: 0px 30px 50px 0px / 0px 30px 100px 0px;
+}
+
+
+.coll{
+    background-color: rgb(255, 220, 192);
+    height: 140px;
+    width: 200px;
+    position: relative;
+    left: 205px;
+    bottom: 40px;
+    z-index: -2000;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.cos{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    width: 700px;
+    border-radius: 200px 200px 0px 0px;
+    position: relative;
+    bottom: 40px;
+    left: -45px;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.pendiente{
+    height: 40px;
+    width: 14px;
+    background-color: rgb(123, 117, 110);
+    position: relative;
+    bottom: 1090px;
+    left: 13px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.lunar{
+    background-color: rgb(125, 87, 60);
+    border-radius: 100%;
+}
+
+
+.l1{
+    position: relative;
+    bottom: 610px;
+    left: 90px;
+    height: 2px;
+    width: 2px;
+}
+
+
+
+.nariz{
+    background-color: rgb(255, 210, 171);
+    clip-path: ellipse(12% 40% at 48% 51%);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 214px;
+    bottom: 220px;
+}
+
+.redonda{
+    background-color: rgb(255, 210, 171);
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
